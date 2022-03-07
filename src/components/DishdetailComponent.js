@@ -126,14 +126,13 @@ class CommentForm extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    // 弹窗按钮
+    
     toggleModal() {
         this.setState({
           isModalOpen: !this.state.isModalOpen
         });
     }
 
-    // 提交评论
     handleSubmit(values) {
 
         this.toggleModal();
